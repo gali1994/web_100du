@@ -214,7 +214,7 @@ $(function (){
 			//console.log(iWidth,iHeight);
 			$('.hot_areas li p').remove();
 			$(this).addClass('area1').css({'width':iWidth,'height':iHeight});
-			$(this).find('img').css({'width':iWidth,'height':iHeight});
+			$(this).find('img').css22({'width':iWidth,'height':iHeight});
 			//$(this).append('<p>123</p>');
 			//console.log();
 			$(this).append('<p style="width:'+ ($(this).width()-12) +'px; height:'+ ($(this).height()-12) +'px;">'+ arr[$(this).index()] +'</p>');
